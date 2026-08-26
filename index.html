@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Algoritmos de Ordenação - Livraria</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">
+        <span class="logo-icon">⚡</span>
+        <span class="logo-text">DevBooks</span>
+      </div>
+      <p class="tagline">Demonstração de Algoritmos em JS</p>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <section class="hero-section">
+      <h1>Ordenação & Pesquisa de Dados</h1>
+      <p>Visualização prática de manipulação de arrays e algoritmos com JavaScript.</p>
+    </section>
+
+    <!-- Card de destaque do Menor Preço -->
+    <section class="highlight-card" id="cheapest-card">
+      <div class="badge">Menor Valor Encontrado</div>
+      <div class="highlight-info">
+        <h2 id="cheapest-title">Buscando...</h2>
+        <p class="price" id="cheapest-price">R$ --,--</p>
+      </div>
+    </section>
+
+    <!-- Controle de Ordenação -->
+    <section class="controls">
+      <h2>Catálogo de Produtos</h2>
+      <div class="actions">
+        <button id="btn-sort-asc" class="btn primary">Ordenar: Menor Preço</button>
+        <button id="btn-sort-desc" class="btn secondary">Ordenar: Maior Preço</button>
+      </div>
+    </section>
+
+    <!-- Lista dos Livros -->
+    <section class="grid-container" id="book-list">
+      <!-- Os cards dos livros serão inseridos via JavaScript -->
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Projeto de Estudo — Algoritmos com JavaScript</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
